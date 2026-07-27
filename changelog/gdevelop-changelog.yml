@@ -1,0 +1,45 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/4ian/GDevelop/releases
+name: GDevelop Changelog
+scheme: semver
+current_version: v5.6.274
+cadence: roughly every 2 weeks
+url: https://github.com/4ian/GDevelop/releases
+notes: >-
+  GDevelop publishes a dated, per-release changelog as GitHub Releases on the
+  4ian/GDevelop repository. Releases follow semantic versioning (5.6.x) with an
+  approximately biweekly cadence. Entries are grouped into Improvements and Bug
+  fixes; breaking changes are called out inline when present.
+entries:
+- version: v5.6.274
+  date: '2026-07-16'
+  breaking: false
+  highlights:
+  - Restore a recently deleted cloud project (up to 30 days for subscribers).
+  - Run GDevelop from the command line by adding it to PATH at installation.
+- version: v5.6.273
+  date: '2026-06-30'
+  breaking: false
+  highlights:
+  - New "Save State" features (list, delete, check, duplicate saves).
+  - Edit behavior properties of a selected object group in the properties panel.
+  - Customize behavior properties per instance in the side panel.
+- version: v5.6.272
+  date: '2026-06-17'
+  breaking: false
+  highlights:
+  - Properties panel now edits scene properties and scene variables.
+  - Spine extension updated to the official Esoteric Software runtime for PixiJS v7.
+- version: v5.6.271
+  date: '2026-06-03'
+  breaking: false
+  highlights:
+  - New documentation index pages for objects and behaviors.
+  - Accent-insensitive search for better multilingual support.
+- version: v5.6.270
+  date: '2026-06-02'
+  breaking: false
+  highlights:
+  - Syntax highlighting for expressions in the Events Sheet.
+  - Events Sheet UI improvements (Select All, deselect, hide deprecated extensions).

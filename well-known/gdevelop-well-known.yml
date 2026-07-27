@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of gdevelop.io and api.gdevelop.io /.well-known/*
+notes: >-
+  No .well-known discovery documents are published. gdevelop.io returns 404 for
+  all probed paths; api.gdevelop.io returns 403 (auth-gated backend) for all
+  probed paths. No files were saved. Absence is a valid, expected result for a
+  no-code game-engine product.
+probes:
+- host: gdevelop.io
+  paths:
+  - {path: /.well-known/security.txt, status: 404, file: null}
+  - {path: /.well-known/openid-configuration, status: 404, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 404, file: null}
+  - {path: /.well-known/api-catalog, status: 404, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 404, file: null}
+- host: api.gdevelop.io
+  paths:
+  - {path: /.well-known/security.txt, status: 403, file: null}
+  - {path: /.well-known/openid-configuration, status: 403, file: null}
+  - {path: /.well-known/oauth-authorization-server, status: 403, file: null}
+  - {path: /.well-known/api-catalog, status: 403, file: null}
+  - {path: /.well-known/ai-plugin.json, status: 403, file: null}

@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/4ian/GDevelop/releases
+name: GDevelop Lifecycle
+versioning:
+  scheme: semver
+  current_version: v5.6.274
+  major_line: GDevelop 5
+  cadence: approximately every two weeks
+  source: https://github.com/4ian/GDevelop/releases
+deprecation:
+  policy_published: false
+  notes: >-
+    No formal deprecation or Sunset/Deprecation-header (RFC 8594) policy is
+    published for the GDevelop backend API. Deprecated editor extensions are
+    hidden from new projects but the engine maintains long backward
+    compatibility for existing project files across the GDevelop 5 line.
+status_page:
+  present: false
+  notes: >-
+    No dedicated GDevelop status page was found. Probing
+    gdevelop.statuspage.io / gdevelopstatus.statuspage.io returned generic
+    Statuspage landing redirects, not a GDevelop-branded status page. Service
+    announcements are shared via the blog, forum, and Discord.
+sla:
+  published: false
+support: https://forum.gdevelop.io

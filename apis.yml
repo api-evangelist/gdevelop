@@ -1,7 +1,16 @@
 aid: gdevelop
 name: GDevelop
-description: GDevelop is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GDevelop is an open-source, no-code, cross-platform 2D/3D and multiplayer game
+  engine designed for everyone. Creators build games visually with a
+  drag-and-drop event system (with optional JavaScript to extend behavior) and
+  export in one click to web browsers, Android, iOS, Steam, and desktop. GDevelop
+  offers a web editor and a downloadable desktop app, an asset store, cloud
+  project storage, leaderboards, and multiplayer features, and is developed in
+  the open on GitHub (4ian/GDevelop). It ships with a documented JavaScript
+  runtime (GDJS), an extensive wiki, and a games platform for publishing and
+  monetizing creations. Added to the API Evangelist network as a Seedcamp
+  portfolio company and enriched via the pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/gdevelop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/a389kcxn/gdevelop/bb7347a19cd361ee11790de1f9e055c660cec223-2107x2160.png?h=600&w=800&fit=crop
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Game Engine
+- Game Development
+- No-Code
+- Open Source
+- Developer Tools
+- Cross-Platform
+- Multiplayer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://gdevelop.io
+  url: https://gdevelop.io
+- type: DeveloperPortal
+  url: https://wiki.gdevelop.io/
+- type: Documentation
+  url: https://wiki.gdevelop.io/gdevelop5/
+- type: APIReference
+  url: https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/
+- type: GettingStarted
+  url: https://wiki.gdevelop.io/gdevelop5/tutorials/
+- type: Blog
+  url: https://gdevelop.io/blog
+- type: Support
+  url: https://forum.gdevelop.io
+- type: GitHubOrganization
+  url: https://github.com/4ian/GDevelop
+- type: Roadmap
+  url: https://trello.com/b/qf2myzbl/gdevelop-roadmap
+- type: Pricing
+  url: https://gdevelop.io/pricing
+- type: SignUp
+  url: https://editor.gdevelop.io
+- type: TermsOfService
+  url: https://gdevelop.io/page/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://gdevelop.io/page/privacy-policy
+- type: ChangeLog
+  url: changelog/gdevelop-changelog.yml
+- type: Lifecycle
+  url: lifecycle/gdevelop-lifecycle.yml
+- type: DomainSecurity
+  url: security/gdevelop-domain-security.yml
+- type: WellKnown
+  url: well-known/gdevelop-well-known.yml
+- type: LLMsTxt
+  url: llms/gdevelop-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
